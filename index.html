@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Kalsariya | Software Engineer Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="home" class="container pt-4 pb-5">
+        <!-- Floating Header -->
+        <header class="main-header mb-5">
+            <a href="#home" class="header-name">
+                <img src="./profile.jpg" alt="Logo" class="logo-img rounded-circle" width="40" height="40">
+                <span class="brand-text"><span class="tilt-text">Akash Kalsariya</span></span>
+            </a>
+            <nav class="header-nav">
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <div class="row g-4 mb-5">
+            <div class="col-lg-7 d-flex flex-column gap-4">
+                <!-- Name Card -->
+                <div class="card-custom card-black animate-left flex-grow-1">
+                    <h1 class="hero-name-text tilt-text">Akash<br>Kalsariya</h1>
+                </div>
+
+                <!-- Info Card -->
+                <div class="card-custom card-tan animate-left-delay">
+                    <p class="hero-subtitle mb-0">Software Engineer & Web Developer. Dedicated to building robust,
+                        user-centric digital solutions with a focus on React and modern tech stacks.</p>
+                </div>
+
+                <!-- Contact Cards -->
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <div class="card-custom card-contact animate-up h-100 py-4">
+                            <i class="bi bi-telephone contact-icon"></i>
+                            <span>+91 9879331257</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-custom card-contact animate-up-delay h-100 py-4">
+                            <i class="bi bi-envelope contact-icon"></i>
+                            <span>akashkalsariya88@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile Image Card -->
+            <div class="col-lg-5">
+                <div class="card-custom card-image animate-right h-100">
+                    <img src="./profile.jpg" alt="Akash Kalsariya" class="hero-profile-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Card -->
+        <div class="card-custom card-tan summary-card reveal animate-up-slow mb-5">
+            <p class="summary-text text-center">
+                I am a dedicated B-Tech IT student passionate about software development and web technologies. With
+                hands-on experience as a web development intern, I have successfully created user-friendly interfaces
+                and robust backend systems.
+            </p>
+        </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-5 reveal">
+            <div class="card-custom card-black mb-4 py-4 px-5">
+                <h2 class="experience-title">Experience</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="card-custom card-tan h-100 p-5">
+                        <div class="experience-item">
+                            <h3 class="exp-job-title">Web Development Intern</h3>
+                            <p class="exp-company">Craftologic Infotech | Surat, Gujarat | May 2025 – June 2025</p>
+                            <ul class="exp-list">
+                                <li>Developed responsive front-end UI using HTML, CSS, JavaScript, and React.js.</li>
+                                <li>Collaborated with developers to build user-friendly interfaces.</li>
+                                <li>Optimized existing web pages for performance and accessibility.</li>
+                                <li>Participated in code reviews and improved code quality.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-custom experience-image-card h-100">
+                        <img src="./profile.jpg" alt="Akash Kalsariya" class="exp-side-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-5 reveal">
+            <div class="card-custom card-black mb-4 py-4 px-5">
+                <h2 class="experience-title">Projects</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6">
+                    <div class="card-custom card-tan h-100 p-5">
+                        <h3 class="exp-job-title mb-3">MBIT Fees & Student Registration System</h3>
+                        <p class="mb-3 text-muted"><strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS, JavaScript
+                        </p>
+                        <p class="exp-summary mb-3">Built a real-world student registration and fee management
+                            platform as part of a college project team. Automated enrollment and fee calculation to
+                            improve workflow efficiency.</p>
+                        <ul class="exp-list">
+                            <li>Automated enrollment and course selection.</li>
+                            <li>Integrated fee calculation and payment tracking.</li>
+                            <li>Deployed on internal college server for actual operations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6">
+                    <div class="card-custom card-tan h-100 p-5">
+                        <h3 class="exp-job-title mb-3">Daily Utility Application</h3>
+                        <p class="mb-3 text-muted"><strong>Tech Stack:</strong> React.js, React Router, Chart.js,
+                            HTML, CSS</p>
+                        <p class="exp-summary mb-3">Developed a comprehensive React productivity suite that
+                            consolidates task management, expense tracking, and weather forecasting.</p>
+                        <ul class="exp-list">
+                            <li>Implemented interactive expense tracking with Chart.js.</li>
+                            <li>Integrated dynamic news feed and weather forecasting.</li>
+                            <li>Built with modern responsive React architecture.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-5 reveal">
+            <div class="card-custom card-black mb-4 py-4 px-5">
+                <h2 class="experience-title">Education</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Degree Card -->
+                <div class="col-md-4">
+                    <div class="card-custom card-tan h-100 p-4">
+                        <h3 class="exp-job-title mb-2">B.Tech IT</h3>
+                        <p class="mb-1"><strong>Charutar Vidya Mandal University</strong></p>
+                        <p class="text-muted small">2022 – 2026 | CGPA: 8.28</p>
+                    </div>
+                </div>
+
+                <!-- HSC Card -->
+                <div class="col-md-4">
+                    <div class="card-custom card-tan h-100 p-4">
+                        <h3 class="exp-job-title mb-2">HSC (Class XII)</h3>
+                        <p class="mb-1"><strong>Shree Swaminarayan Gurukul</strong></p>
+                        <p class="text-muted small">2021 – 2022 | Result: 62%</p>
+                    </div>
+                </div>
+
+                <!-- SSC Card -->
+                <div class="col-md-4">
+                    <div class="card-custom card-tan h-100 p-4">
+                        <h3 class="exp-job-title mb-2">SSC (Class X)</h3>
+                        <p class="mb-1"><strong>Maniba Vidya Sankul</strong></p>
+                        <p class="text-muted small">2019 – 2020 | Result: 74%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-5 reveal">
+            <div class="card-custom card-black mb-4 py-4 px-5">
+                <h2 class="experience-title">Technical Skills</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Programming -->
+                <div class="col-md-4">
+                    <div class="card-custom card-tan h-100 p-4">
+                        <h3 class="exp-job-title mb-3" style="font-size: 1.2rem;">Programming</h3>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-dark rounded-pill px-3 py-2">JavaScript</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">Java</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">C++</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">C</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Tech -->
+                <div class="col-md-4">
+                    <div class="card-custom card-tan h-100 p-4">
+                        <h3 class="exp-job-title mb-3" style="font-size: 1.2rem;">Web & DB</h3>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-dark rounded-pill px-3 py-2">React.js</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">HTML/CSS</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">PHP</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="col-md-4">
+                    <div class="card-custom card-tan h-100 p-4">
+                        <h3 class="exp-job-title mb-3" style="font-size: 1.2rem;">Tools & Concepts</h3>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-dark rounded-pill px-3 py-2">VS Code</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">OOP</span>
+                            <span class="badge bg-dark rounded-pill px-3 py-2">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="row g-4 mb-5 reveal">
+            <div class="col-lg-5">
+                <div class="card-custom card-black h-100 p-5 d-flex flex-column justify-content-start">
+                    <p class="text-white-50 mb-2">Contact Me</p>
+                    <h2 class="hero-name-text mb-4" style="font-size: 3.5rem;">Let's Create Something Great</h2>
+                    <p class="text-white-50">Open for internship opportunities and collaborative software projects.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="card-custom card-tan h-100 p-5">
+                    <form action="https://formspree.io/f/akash_placeholder" method="POST" class="contact-form-minimal">
+                        <div class="mb-4">
+                            <label class="form-label-minimal">Name *</label>
+                            <input type="text" name="name" class="form-input-minimal" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label-minimal">Email *</label>
+                            <input type="email" name="email" class="form-input-minimal" required>
+                        </div>
+                        <div class="mb-5">
+                            <label class="form-label-minimal">Message</label>
+                            <textarea name="message" class="form-input-minimal" rows="1"></textarea>
+                        </div>
+                        <div class="text-end">
+                            <button type="submit" class="btn-submit-minimal">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-custom reveal animate-up-slow">
+            <div class="footer-content">
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="footer-name">Akash Kalsariya</h2>
+                        <p class="text-white-50 mt-2">B.Tech | Software Engineer</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-end mb-4 text-center text-md-start">
+                    <div class="col-md-4">
+                        <div class="footer-info">
+                            <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+91 9879331257</p>
+                            <p class="mb-1"><i class="bi bi-envelope-fill me-2"></i>akashkalsariya88@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center py-3 py-md-0">
+                        <div class="footer-links">
+                            <a href="#" class="mx-2">Privacy</a>
+                            <a href="#" class="mx-2">Terms</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="footer-socials justify-content-center justify-content-md-end">
+                            <a href="https://www.linkedin.com/in/akash-kalsariya-9725822a2/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="footer-divider">
+
+                <div class="footer-bottom text-center">
+                    <p>&copy; 2026 Crafted by Akash Kalsariya.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
